@@ -15,7 +15,8 @@ public class App
     	return i-j;
     }
     public int mul(int i,int j) {
-    	return i*j;
+    	System.out.println(i*j+"  "+Math.multiplyExact(i, j));
+    	return Math.multiplyExact(i, j);
     }
     
 }
